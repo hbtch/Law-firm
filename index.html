@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Центр экспертиз и просвещения</title>
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <link rel="icon" href="./assets/icons/logo-new.svg" type="icon/svg" />
+  </head>
+
+  <body>
+    <!-- Начало блока header-->
+    <header class="header" id="home">
+      <div class="header__container">
+        <div class="header__up">
+          <div class="header__logo">
+            <img
+              src="./assets/icons/logo-new.svg"
+              alt="logo"
+              class="header__logo-img"
+            />
+            <p class="header__logo-title">Центр экспертиз и просвещения</p>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__nav-items">
+              <li><a class="item-g" href="#about">О компании</a></li>
+              <li><a class="item-g" href="#services">Услуги</a></li>
+              <li><a class="item-g" href="#experts">Эксперты</a></li>
+              <li><a class="item-g" href="#article">Статьи</a></li>
+              <li><a class="item-g" href="#news">Новости</a></li>
+              <li><a class="item-g" href="#contacts">Контакты</a></li>
+            </ul>
+          </nav>
+          <nav class="header__burger">
+            <input type="checkbox" class="header__burger-checkbox" />
+            <span class="header__burger-line"></span>
+            <span class="header__burger-line"></span>
+            <span class="header__burger-line"></span>
+            <ul class="header__burger-menu">
+              <li>
+                <a class="header__burger-menu-item" href="#about">О компании</a>
+              </li>
+              <li>
+                <a class="header__burger-menu-item" href="#services">Услуги</a>
+              </li>
+              <li>
+                <a class="header__burger-menu-item" href="#experts">Эксперты</a>
+              </li>
+              <li>
+                <a class="header__burger-menu-item" href="#article">Статьи</a>
+              </li>
+              <li>
+                <a class="header__burger-menu-item" href="#news">Новости</a>
+              </li>
+              <li>
+                <a class="header__burger-menu-item" href="#contacts"
+                  >Контакты</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <h1 class="header__title">
+          Центр правового просвещения и экспертного сопровождения публичного
+          управления
+        </h1>
+      </div>
+    </header>
+    <!-- Конец блока header -->
+    <!--Начало блока Услуги - София-->
+    <div class="service" id="services">
+      <h2 class="service__title">Наша деятельность</h2>
+      <div class="service__text">
+        "Как приятно знать, что ты что-то узнал!" Мольер
+      </div>
+      <div class="service__container">
+        <!--CARDS-->
+        <div class="service__block block-n">
+          <div class="service__img">
+            <img src="./assets/icons/agreement.png" alt="image" />
+          </div>
+          <div class="service__name">Онлайн-школа</div>
+
+          <ul class="service__list">
+            <li>Обучение правовым основам</li>
+            <li>Курсы повышения квалификации</li>
+            <li>Лекции и конференции</li>
+          </ul>
+
+          <hr />
+        </div>
+
+        <div class="service__block block-n">
+          <div class="service__img">
+            <img src="./assets/icons/agreement.png" alt="image" />
+          </div>
+          <div class="service__name">Правовая сфера</div>
+          <ul class="service__list">
+            <li>Правовая консультация</li>
+            <li>Помощь в оформлении документов</li>
+            <li>Проверка документов и контрактов</li>
+            <li>Юридическая консультация</li>
+          </ul>
+
+          <hr />
+        </div>
+
+        <div class="service__block block-n">
+          <div class="service__img">
+            <img src="./assets/icons/agreement.png" alt="image" />
+          </div>
+          <div class="service__name">Благотворительность</div>
+
+          <ul class="service__list">
+            <li>Благотворительные мероприятия</li>
+            <li>Помощь</li>
+            <li>Наставничество</li>
+          </ul>
+
+          <hr />
+        </div>
+
+        <!--END OF THE CARDS-->
+        <div class="service__carousel-container">
+          <!--Start of the block-cards for adaptability-->
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active service-item">
+                <div class="service__block block-s">
+                  <div class="service__img">
+                    <img src="./assets/icons/agreement.png" alt="image" />
+                  </div>
+                  <div class="service__name">Онлайн-школа</div>
+                  <div class="service__description descr-adapt">
+                    <div>
+                      <ul class="service__list">
+                        <li>Обучение правовым основам</li>
+                        <li>Курсы повышения квалификации</li>
+                        <li>Лекции и конференции</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+              <div class="carousel-item service-item">
+                <div class="service__block block-s">
+                  <div class="service__img">
+                    <img src="./assets/icons/agreement.png" alt="image" />
+                  </div>
+                  <div class="service__name">Правовая сфера</div>
+                  <ul class="service__list">
+                    <li>Правовая консультация</li>
+                    <li>Помощь в оформлении документов</li>
+                    <li>Проверка документов и контрактов</li>
+                    <li>Юридическая консультация</li>
+                  </ul>
+                  <hr />
+                </div>
+              </div>
+              <div class="carousel-item service-item">
+                <div class="service__block block-s">
+                  <div class="service__img">
+                    <img src="./assets/icons/agreement.png" alt="image" />
+                  </div>
+                  <div class="service__name">Благотворительность</div>
+                  <ul class="service__list">
+                    <li>Благотворительные мероприятия</li>
+                    <li>Помощь</li>
+                    <li>Наставничество</li>
+                  </ul>
+                  <hr />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--End of the block-cards for adaptability-->
+        <!--Button-->
+      </div>
+      <a
+        target="_blank"
+        href="https://vk.com/center_expertise"
+        class="btn news-btn"
+        style="width: fit-content"
+        >О наших услугах
+      </a>
+      <!--End of the button-->
+    </div>
+    <!--End of the block services - Sofiia-->
+    <!--Начало блока Ксении - о компании-->
+    <section class="container-about" id="about">
+      <div class="container-about__company">
+        <h2 class="container-about__company-header">О компании</h2>
+        <div class="container-about__company-text">
+          <article class="container-about__company-profile">
+            Автономная некоммерческая организация Центр правового просвещения и
+            экспертного сопровождения публичного управления
+          </article>
+          <p class="container-about__company-ogrn">ОГРН 1235200007173</p>
+          <p class="container-about__company-address">
+            Юридический адрес: 603136, Нижегородская область, г.о. Город Нижний
+            Новгород, г Нижний Новгород, ул Имени Маршала Малиновского Р.я., д.
+            3
+          </p>
+        </div>
+        <div class="container-about___company-fotos">
+          <div class="container-about__foto">
+            <img
+              class="container-about__about-foto"
+              src="./assets/images/about-foto.jpg"
+              alt="about-foto"
+            />
+          </div>
+        </div>
+        <div class="button-wrap">
+          <a target="_blank" class="btn btn_history" href="#">История</a>
+          <a target="_blank" class="btn btn_info" href="#">Информация</a>
+        </div>
+      </div>
+    </section>
+    <!--Конец блока Ксении - о компании-->
+    <!--Начало блока-эксперты Алисы-->
+    <section class="our-experts" id="experts">
+      <div class="our-experts__container-1">
+        <div class="our-experts__head">
+          <h2 class="our-experts__title">Наши эксперты</h2>
+          <p class="our-experts__text">
+            Давно выяснено, что при оценке дизайна и композиции читаемый текст
+            мешает сосредоточиться. Lorem Ipsum используют потому, что тот
+            обеспечивает более или менее стандартное заполнение шаблона
+          </p>
+        </div>
+        <div class="our-experts__container-2">
+          <!--first card-->
+          <div class="our-experts__list-of-experts">
+            <div class="our-experts__front-part">
+              <img
+                src="./assets/images/expert_aleksandr.jpg"
+                class="our-experts__img"
+                alt="expert-aleksandr"
+              />
+              <h3 class="our-experts__expert-name">
+                Лаврентьев Александр Рудольфович
+              </h3>
+            </div>
+            <div class="our-experts__back-part">
+              <h4 class="our-experts__back-expertName">
+                Лаврентьев Александр Рудольфович
+              </h4>
+              <p class="our-experts__back-text">
+                Независимый эксперт, уполномоченный на проведение экспертизы
+                нормативных правовых актов и проектов нормативных правовых актов
+                на коррупциогенность (аккредитация Минюста России на 2009-2014,
+                2014-2019, 2019-2024 годы).
+              </p>
+              <p class="our-experts__experience">12 лет юридической практики</p>
+            </div>
+          </div>
+          <!--second card-->
+          <div class="our-experts__list-of-experts">
+            <div class="our-experts__front-part">
+              <img
+                src="./assets/images/expert_aleksandr.jpg"
+                class="our-experts__img"
+                alt="expert-"
+              />
+              <h3 class="our-experts__expert-name">
+                Горюнова Полина Алексеевна
+              </h3>
+            </div>
+            <div class="our-experts__back-part">
+              <h4 class="our-experts__back-expertName">
+                Горюнова Полина Алексеевна
+              </h4>
+              <p class="our-experts__back-text">
+                Есть много вариантов Lorem Ipsum, но большинство из них имеет не
+                всегда приемлемые модификации, например, юмористические вставки
+                или слова, которые даже отдалённо не напоминают латынь.
+              </p>
+              <p class="our-experts__experience">12 лет юридической практики</p>
+            </div>
+          </div>
+          <!--third card-->
+          <div class="our-experts__list-of-experts">
+            <div class="our-experts__front-part">
+              <img
+                src="./assets/images/expert_aleksandr.jpg"
+                class="our-experts__img"
+                alt="expert-"
+              />
+              <h3 class="our-experts__expert-name">
+                Миронов Александр Германович
+              </h3>
+            </div>
+            <div class="our-experts__back-part">
+              <h4 class="our-experts__back-expertName">
+                Миронов Александр Германович
+              </h4>
+              <p class="our-experts__back-text">
+                Есть много вариантов Lorem Ipsum, но большинство из них имеет не
+                всегда приемлемые модификации, например, юмористические вставки
+                или слова, которые даже отдалённо не напоминают латынь.
+              </p>
+              <p class="our-experts__experience">12 лет юридической практики</p>
+            </div>
+          </div>
+          <!--fourth card-->
+          <div class="our-experts__list-of-experts">
+            <div class="our-experts__front-part">
+              <img
+                src="./assets/images/expert_aleksandr.jpg"
+                class="our-experts__img"
+                alt="expert-"
+              />
+              <h3 class="our-experts__expert-name">
+                Архипов Максим Константинович
+              </h3>
+            </div>
+            <div class="our-experts__back-part">
+              <h4 class="our-experts__back-expertName">
+                Архипов Максим Константинович
+              </h4>
+              <p class="our-experts__back-text">
+                Есть много вариантов Lorem Ipsum, но большинство из них имеет не
+                всегда приемлемые модификации, например, юмористические вставки
+                или слова, которые даже отдалённо не напоминают латынь.
+              </p>
+              <p class="our-experts__experience">12 лет юридической практики</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Beginning of block with adaptability -->
+      <div class="our-experts__container-carousel">
+        <div
+          id="carouselExampleSlidesOnly-1"
+          class="carousel slide experts-slides"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-item active">
+            <div class="our-experts__list-of-experts-2">
+              <div class="our-experts__front-part">
+                <img
+                  src="./assets/images/expert_aleksandr.jpg"
+                  class="our-experts__img"
+                  alt="expert-aleksandr"
+                />
+                <h3 class="our-experts__expert-name">
+                  Лаврентьев Александр Рудольфович
+                </h3>
+              </div>
+              <div class="our-experts__back-part">
+                <h4 class="our-experts__back-expertName">
+                  Лаврентьев Александр Рудольфович
+                </h4>
+                <p class="our-experts__back-text">
+                  Независимый эксперт, уполномоченный на проведение экспертизы
+                  нормативных правовых актов и проектов нормативных правовых
+                  актов на коррупциогенность (аккредитация Минюста России на
+                  2009-2014, 2014-2019, 2019-2024 годы).
+                </p>
+                <p class="our-experts__experience">
+                  12 лет юридической практики
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="our-experts__list-of-experts-2">
+              <div class="our-experts__front-part">
+                <img
+                  src="./assets/images/expert_aleksandr.jpg"
+                  class="our-experts__img"
+                  alt="expert-"
+                />
+                <h3 class="our-experts__expert-name">
+                  Горюнова Полина Алексеевна
+                </h3>
+              </div>
+              <div class="our-experts__back-part">
+                <h4 class="our-experts__back-expertName">
+                  Горюнова Полина Алексеевна
+                </h4>
+                <p class="our-experts__back-text">
+                  Есть много вариантов Lorem Ipsum, но большинство из них имеет
+                  не всегда приемлемые модификации, например, юмористические
+                  вставки или слова, которые даже отдалённо не напоминают
+                  латынь.
+                </p>
+                <p class="our-experts__experience">
+                  12 лет юридической практики
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="our-experts__list-of-experts-2">
+              <div class="our-experts__front-part">
+                <img
+                  src="./assets/images/expert_aleksandr.jpg"
+                  class="our-experts__img"
+                  alt="expert-"
+                />
+                <h3 class="our-experts__expert-name">
+                  Миронов Александр Германович
+                </h3>
+              </div>
+              <div class="our-experts__back-part">
+                <h4 class="our-experts__back-expertName">
+                  Миронов Александр Германович
+                </h4>
+                <p class="our-experts__back-text">
+                  Есть много вариантов Lorem Ipsum, но большинство из них имеет
+                  не всегда приемлемые модификации, например, юмористические
+                  вставки или слова, которые даже отдалённо не напоминают
+                  латынь.
+                </p>
+                <p class="our-experts__experience">
+                  12 лет юридической практики
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="our-experts__list-of-experts-2">
+              <div class="our-experts__front-part">
+                <img
+                  src="./assets/images/expert_aleksandr.jpg"
+                  class="our-experts__img"
+                  alt="expert-"
+                />
+                <h3 class="our-experts__expert-name">
+                  Архипов Максим Константинович
+                </h3>
+              </div>
+              <div class="our-experts__back-part">
+                <h4 class="our-experts__back-expertName">
+                  Архипов Максим Константинович
+                </h4>
+                <p class="our-experts__back-text">
+                  Есть много вариантов Lorem Ipsum, но большинство из них имеет
+                  не всегда приемлемые модификации, например, юмористические
+                  вставки или слова, которые даже отдалённо не напоминают
+                  латынь.
+                </p>
+                <p class="our-experts__experience">
+                  12 лет юридической практики
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of block with adaptability -->
+    </section>
+    <!--Конец блока-эксперты Алисы-->
+    <!-- Начало блока Статьи - Юлии -->
+    <section class="article" id="article">
+      <div class="article__container">
+        <div class="article__position">
+          <h2 class="article__title">Статьи</h2>
+          <p class="article__text">
+            Здесь вы можете прочитать статьи, написанные нашими экспертами
+          </p>
+          <div class="article__block article-b">
+            <div class="article__item">
+              <div class="article__media">
+                <img
+                  class="article__pic"
+                  src="./assets/images/article.png"
+                  alt="img-1"
+                />
+              </div>
+              <div class="article__pic-title">
+                <a href="#"
+                  >Медиация и судебное примирение в правозащитном механизме</a
+                >
+              </div>
+              <div class="article__time">28 сент. 2023 г.</div>
+              <div class="article__content">
+                Заявленный спектр выступлений широк и охватывает, наверное, все
+                стороны этого института урегулирования споров. Я заявил тему
+                "Медиация и судебное примирение в правозащитном механизме",
+                поскольку уверен, медиация как один из возможных способов
+                внесудебного урегулирования споров, что подтвердили все
+                выступавшие на конференции, - далеко не популярен.
+                Следовательно, важно признать - иностранный опыт заключения
+                медиативных (название то какое?!) соглашений в России "не
+                прижился", значит, пора признать неудачу и отказаться от этого
+                института, тем более есть альтернативные способы мирного
+                разрешения споров (правовая помощь, разветвленная система
+                бесплатной юридической помощи, мировые соглашения, судебные
+                примирители).
+              </div>
+            </div>
+            <div class="article__item">
+              <div class="article__media">
+                <img
+                  class="article__pic"
+                  src="./assets/images/article.png"
+                  alt="img-2"
+                />
+              </div>
+              <div class="article__pic-title">
+                <a href="#">Юбилей Конституции Российской Федерации</a>
+              </div>
+              <div class="article__time">24 сент. 2023 г.</div>
+              <div class="article__content">
+                На этой неделе завершил участие в проекте Поделись своим
+                знанием! Тема лекции : Юбилей Конституции Российской Федерации.
+                Не прогадал, оставив для последних лекций посещение школ Нижнего
+                Новгорода! И если в 24 школе ребята были несколько скованы
+                (вероятно первый урок, не проснулись), то в 40 лицее моя
+                последняя в этом проекте, десятая по счету, лекция, по общим (и
+                моим, и организатора от лицея - Андрея Смирнова, и активистов
+                школы) впечатлениям удалась! Фото, мне представляется передают
+                атмосферу. При том, что это была самая молодая аудитория (два 9
+                класса) и притом самая "далёкая" от моей темы - атомные классы.
+                Впрочем, я слышал до занятия, что два педагога (физик и историк)
+                "угрожали" нарушителям порядка 5 дополнительными задачами по
+                физике и 3 - по истории... но уверен, этим талантливым
+                ребятишкам и без угроз наш для них "птичий язык" юриспруденции
+                оказался небезынтересен! Проект завершён, всем Спасибо! К Юбилею
+                Конституции Российской Федерации готовы!
+              </div>
+            </div>
+            <div class="article__item">
+              <div class="article__media">
+                <img
+                  class="article__pic"
+                  src="./assets/images/article.png"
+                  alt="img-3"
+                />
+              </div>
+              <div class="article__pic-title">
+                <a href="#"
+                  >Научно-консультативный совет при Законодательном Собрании
+                  Нижегородской области: 10 лет экспертного соработничества</a
+                >
+              </div>
+              <div class="article__time">24 сент. 2021 г.</div>
+              <div class="article__content">
+                Обобщение результатов экспертной работы выявило, что мы
+                применяли нестандартные приёмы, комплексный анализ текста
+                документа и практически ни разу заключение не было «формальным»,
+                всегда мы отмечали недостатки (от технико-юридических мелочей до
+                системных), а в более чем половине заключений вывод был крайне
+                неутешителен для инициатора: рекомендовать только при условии
+                устранения недостатков и даже – не рекомендовать для
+                рассмотрения соответствующим правотворческим органом. Чаще всего
+                к нам прислушивались и экспертное мнение НКС было учтено.
+              </div>
+            </div>
+          </div>
+          <!--Начало блока статьи в адаптивной версии-->
+          <div
+            id="carouselExampleSlidesOnly-2"
+            class="carousel slide article__slides"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner article__carousel">
+              <div class="carousel-item active">
+                <div class="article__item item-julia">
+                  <div class="article__media">
+                    <img
+                      class="article__pic"
+                      src="./assets/images/article.png"
+                      alt="img-1"
+                    />
+                  </div>
+                  <div class="article__pic-title">
+                    <a href="#"
+                      >Медиация и судебное примирение в правозащитном
+                      механизме</a
+                    >
+                  </div>
+                  <div class="article__time">28 сент. 2023 г.</div>
+                  <div class="article__content">
+                    Заявленный спектр выступлений широк и охватывает, наверное,
+                    все стороны этого института урегулирования споров. Я заявил
+                    тему "Медиация и судебное примирение в правозащитном
+                    механизме", поскольку уверен, медиация как один из возможных
+                    способов внесудебного урегулирования споров, что подтвердили
+                    все выступавшие на конференции, - далеко не популярен.
+                    Следовательно, важно признать - иностранный опыт заключения
+                    медиативных (название то какое?!) соглашений в России "не
+                    прижился", значит, пора признать неудачу и отказаться от
+                    этого института, тем более есть альтернативные способы
+                    мирного разрешения споров (правовая помощь, разветвленная
+                    система бесплатной юридической помощи, мировые соглашения,
+                    судебные примирители).
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="article__item item-julia">
+                  <div class="article__media">
+                    <img
+                      class="article__pic"
+                      src="./assets/images/article.png"
+                      alt="img-2"
+                    />
+                  </div>
+                  <div class="article__pic-title">
+                    <a href="#">Юбилей Конституции Российской Федерации</a>
+                  </div>
+                  <div class="article__time">24 сент. 2023 г.</div>
+                  <div class="article__content">
+                    На этой неделе завершил участие в проекте Поделись своим
+                    знанием! Тема лекции : Юбилей Конституции Российской
+                    Федерации. Не прогадал, оставив для последних лекций
+                    посещение школ Нижнего Новгорода! И если в 24 школе ребята
+                    были несколько скованы (вероятно первый урок, не
+                    проснулись), то в 40 лицее моя последняя в этом проекте,
+                    десятая по счету, лекция, по общим (и моим, и организатора
+                    от лицея - Андрея Смирнова, и активистов школы) впечатлениям
+                    удалась! Фото, мне представляется передают атмосферу. При
+                    том, что это была самая молодая аудитория (два 9 класса) и
+                    притом самая "далёкая" от моей темы - атомные классы.
+                    Впрочем, я слышал до занятия, что два педагога (физик и
+                    историк) "угрожали" нарушителям порядка 5 дополнительными
+                    задачами по физике и 3 - по истории... но уверен, этим
+                    талантливым ребятишкам и без угроз наш для них "птичий язык"
+                    юриспруденции оказался небезынтересен! Проект завершён, всем
+                    Спасибо! К Юбилею Конституции Российской Федерации готовы!
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="article__item item-julia">
+                  <div class="article__media">
+                    <img
+                      class="article__pic"
+                      src="./assets/images/article.png"
+                      alt="img-3"
+                    />
+                  </div>
+                  <div class="article__pic-title">
+                    <a href="#"
+                      >Научно-консультативный совет при Законодательном Собрании
+                      Нижегородской области: 10 лет экспертного
+                      соработничества</a
+                    >
+                  </div>
+                  <div class="article__time">24 сент. 2021 г.</div>
+                  <div class="article__content">
+                    Обобщение результатов экспертной работы выявило, что мы
+                    применяли нестандартные приёмы, комплексный анализ текста
+                    документа и практически ни разу заключение не было
+                    «формальным», всегда мы отмечали недостатки (от
+                    технико-юридических мелочей до системных), а в более чем
+                    половине заключений вывод был крайне неутешителен для
+                    инициатора: рекомендовать только при условии устранения
+                    недостатков и даже – не рекомендовать для рассмотрения
+                    соответствующим правотворческим органом. Чаще всего к нам
+                    прислушивались и экспертное мнение НКС было учтено.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Конец блока статьи в адаптивной версии-->
+          <a
+            target="_blank"
+            href="https://vk.com/center_expertise"
+            class="btn article__button"
+            >Все статьи</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Конец блока Статьи - Юлии  -->
+
+    <!-- Начало блока Новости - Екатерины -->
+    <section class="news" id="news">
+      <div class="news__container">
+        <h2 class="news__title">Новости</h2>
+        <div class="news__wrapper">
+          <article class="news-card">
+            <a
+              target="_blank"
+              href="https://vk.com/center_expertise?w=wall-222535037_6"
+              class="news__item-link"
+            >
+              <div class="news__media">
+                <img
+                  src="./assets/images/news__img4.jpg"
+                  alt="новость"
+                  class="news__image"
+                />
+              </div>
+              <time class="news__date" datetime="2023-10-10">10/10/23</time>
+              <h3 class="news__item-title">
+                Сахалинский государственный университет присоединился к акции
+                "Поделись своим знанием" в рамках Всероссийского проекта
+                общества "Знание"
+              </h3>
+              <p class="news__item-text">
+                Слушателями выступили несколько госслужащих, обучающихся по
+                программе профессиональной переподготовки Государственное и
+                муниципальное управление.
+              </p>
+            </a>
+          </article>
+          <article class="news-card">
+            <a
+              target="_blank"
+              href="https://vk.com/center_expertise?w=wall-222535037_5"
+              class="news__item-link"
+            >
+              <div class="news__media">
+                <img
+                  src="./assets/images/news__img3.jpg"
+                  alt="новость"
+                  class="news__image"
+                />
+              </div>
+              <time class="news__date" datetime="2023-10-02">02/10/23</time>
+              <h3 class="news__item-title">
+                Отличный способ обменяться мнениями с научным сообществом и
+                донести свою точку зрения
+              </h3>
+              <p class="news__item-text">
+                Руководитель Центра Александр Лаврентьев принял участие во
+                всероссийской научно-практической конференции «Актуальные
+                проблемы медиации и судебного примирения: традиционные и
+                альтернативные подходы в праве».
+              </p>
+            </a>
+          </article>
+          <article class="news-card">
+            <a
+              target="_blank"
+              href="https://vk.com/center_expertise?w=wall-222535037_4"
+              class="news__item-link"
+            >
+              <div class="news__media">
+                <img
+                  src="./assets/images/news__img2.jpg"
+                  alt="новость"
+                  class="news__image"
+                />
+              </div>
+              <time class="news__date" datetime="2023-10-01">01/10/23</time>
+              <h3 class="news__item-title">
+                Многие знают, что 12 декабря исполнится 30 лет Конституции
+                Российской Федерации. Но немногие знают когда Основной закон
+                вступил в законную силу?
+              </h3>
+              <p class="news__item-text">
+                Ответы на этот и многие другие интересные вопросы узнали ученики
+                9 классов МБОУ "Школа №24" и MБОУ "Лицей № 40" в рамках Лектория
+                "Поделись своим знанием". Занятия провел Руководитель Центра,
+                к.ю.н. Александр Лаврентьев 28 сентября.
+              </p>
+            </a>
+          </article>
+          <article class="news-card">
+            <a
+              target="_blank"
+              href="https://vk.com/center_expertise?w=wall-222535037_3"
+              class="news__item-link"
+            >
+              <div class="news__media">
+                <img
+                  src="./assets/images/news__img1.jpg"
+                  alt="новость"
+                  class="news__image"
+                />
+              </div>
+              <time class="news__date" datetime="2023-09-26">26/09/23</time>
+              <h3 class="news__item-title">
+                А Вы знаете в чем отличия прав гражданина России от свобод
+                гражданина России?
+              </h3>
+              <p class="news__item-text">
+                Положения Конституции России и историю ее принятия разъяснял
+                Руководитель Центра, к.ю.н. Александр Лаврентьев в рамках
+                просветительского лектория "Поделись своим знанием" Российского
+                общества "Знание". Тема лекции: "Юбилей Конституции Российской
+                Федерации".
+              </p>
+            </a>
+          </article>
+        </div>
+        <a
+          target="_blank"
+          href="https://vk.com/center_expertise"
+          class="btn news-btn"
+          >Все новости
+        </a>
+      </div>
+    </section>
+    <!-- Конец блока Новости - Екатерины -->
+    <!--Начало блока Ксюши-->
+    <footer class="footer" id="contacts">
+      <div class="footer__top">
+        <div>
+          <img src="assets/icons/logo.svg" alt="логотип" class="footer__logo" />
+        </div>
+        <p class="footer__title">Центр экспертиз и просвещения</p>
+      </div>
+      <div class="footer__line"></div>
+      <div class="footer__bottom">
+        <div class="footer__contact">
+          <div class="footer__contact-item">
+            <object
+              data="./assets/icons/email.svg"
+              type="image/svg+xml"
+              class="icon"
+            ></object>
+            <a
+              class="footer__link"
+              href="mailto:center_expertise_nn@mail.ru"
+              target="_blank"
+              >center_expertise_nn@mail.ru</a
+            >
+          </div>
+          <div class="footer__contact-item">
+            <object
+              data="./assets/icons/phone.svg"
+              type="image/svg+xml"
+              class="icon"
+            ></object>
+            <a class="footer__link" href="tel:+79519165754">+7(951)916-57-54</a>
+          </div>
+          <div class="footer__contact-item">
+            <object
+              data="./assets/icons/vk.svg"
+              type="image/svg+xml"
+              class="icon"
+            ></object>
+            <a
+              class="footer__link"
+              href="https://vk.com/center_expertise"
+              target="_blank"
+              >Вконтакте</a
+            >
+          </div>
+        </div>
+        <nav>
+          <ul class="footer__menu">
+            <li><a class="footer__link" href="#home">ГЛАВНАЯ</a></li>
+            <li><a class="footer__link" href="#services">УСЛУГИ</a></li>
+            <li><a class="footer__link" href="#experts">ЭКСПЕРТЫ</a></li>
+            <li><a class="footer__link" href="#article">СТАТЬИ</a></li>
+            <li><a class="footer__link" href="#news">НОВОСТИ</a></li>
+          </ul>
+        </nav>
+        <div>
+          <div class="footer__questions">
+            <div class="footer__questions-title">
+              <div class="footer__questions-title-foto">
+                <div>
+                  <img
+                    src="./assets/images/T1v5IK_YUwQ.jpg"
+                    alt="Александр"
+                    class="foto"
+                  />
+                </div>
+                <div>
+                  <p class="footer__questions-title-caption">
+                    Лаврентьев Александр
+                  </p>
+                  <p class="footer__questions-title-caption leader">
+                    Руководитель
+                  </p>
+                </div>
+              </div>
+              <p class="footer__questions-description">
+                Рады ответить на Ваши вопросы
+              </p>
+            </div>
+            <div>
+              <a
+                href="mailto:center_expertise_nn@mail.ru"
+                target="_blank"
+                class="btn"
+                >Вопросы и предложения</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom-section">&copy; Все права защищены, 2023</div>
+    </footer>
+    <!--Конец блока Ксюши-->
+    <!-- Подключение JS файла Bootstrap -->
+    <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

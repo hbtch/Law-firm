@@ -1,0 +1,237 @@
+@media screen and (min-width:1025px) {
+    .container-about {
+        width: 100%;
+        background: #F7F7F7;
+    .container-about__company {
+        display: grid;
+        width: 60%;
+        margin: 0 20% 0% 20%;
+        grid-template-columns: 1fr 30%;
+        grid-template-rows: min-content 1fr min-content;
+        background: #F7F7F7;
+    
+    .container-about__company-header {
+        grid-area: 1/1/2/3;
+        color: $royal_blue;
+        font-family: Nunito Sans;
+        font-size: 1.75rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 150%; /* 2.625rem */
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .container-about__company-text {
+        grid-area: 2/1/3/2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    
+        .container-about__company-profile,
+        .container-about__company-ogrn,
+        .container-about__company-address {
+        margin: 3% 0% 3% 0;
+        border-bottom: 1px solid $royal_blue;
+        overflow-wrap: break-word;
+        color: var(--colors-black-text, #222);
+        text-align: left;
+        font-family: Nunito Sans;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; /* 1.2rem */
+        }
+    }
+    .container-about___company-fotos {
+        grid-area: 2/2/3/3;
+    .container-about__foto {
+            width: 90%;
+            margin: 5% 5% 5% 5%;
+            box-shadow: 1vw 1vw 1vw #B07C4B;
+            transition: 1s; /* Время эффекта */
+    .container-about__about-foto {
+        width: 100%;
+            }
+        }
+    } 
+    .container-about__foto:hover {
+        transform: scale(1.2); /* Увеличиваем масштаб */
+    }
+    .button-wrap {
+        grid-area: 3/1/4/3;
+        display: flex;
+        height: min-content;
+        flex-direction: row;
+        justify-content: center;
+        margin: 2% 0 5% 0;
+        .btn_history,
+        .btn_info {
+            align-content: center;
+            margin: 0% 2% 0% 2%;
+            }
+            .btn_history{
+                padding-left: 33px;
+                padding-right: 33px;
+            }
+        }
+    }
+    }
+} 
+
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+    .container-about {
+        width: 100%;
+        background: #F7F7F7;
+    
+    .container-about__company {
+        min-width: 80%;
+        margin: 0 10% 0 10%;
+        display: grid;
+        grid-template-columns: 1fr 30%;
+        grid-template-rows: min-content 1fr min-content;
+        background: #F7F7F7;
+        gap: 10px;
+    
+    .container-about__company-header {
+        grid-area: 1/1/2/3;
+        color: $royal_blue;
+        font-family: Nunito Sans;
+        font-size: 1.75rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 150%; /* 2.625rem */
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .container-about__company-text {
+        grid-area: 2/1/3/2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    
+        .container-about__company-profile,
+        .container-about__company-ogrn,
+        .container-about__company-address {
+            width: 80%;
+            margin: 3% 5% 3% 0;
+            border-bottom: 1px solid $royal_blue;
+        overflow-wrap: break-word;
+        color: var(--colors-black-text, #222);
+        text-align: left;
+        font-family: Nunito Sans;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; /* 1.2rem */
+        }
+    }
+    .container-about___company-fotos {
+        grid-area: 2/2/3/3;
+    .container-about__foto {
+            width: 90%;
+            margin: 5% 5% 5% 5%;
+            box-shadow:10px 5px 5px $golden;
+            transition: 1s; /* Время эффекта */
+    .container-about__about-foto {
+        width: 100%;
+            }
+        }
+    } 
+    .container-about__foto:hover {
+        transform: scale(1.2); /* Увеличиваем масштаб */
+    }
+    .button-wrap{
+        grid-area: 3/1/4/3;
+        display: flex;
+        height: min-content;
+        flex-direction: row;
+        justify-content: center;
+        margin: 3% 0 3% 0%;
+        .btn_history,
+        .btn_info {
+            align-content: center;
+            margin: 0% 2% 0% 2%;
+            }
+            .btn_history{
+                padding-left: 33px;
+                padding-right: 33px;
+            }
+        }
+    }
+    }
+} 
+
+@media screen and (max-width: 450px) {
+        
+    .container-about {
+    width: 100%;
+    background: #F7F7F7;
+
+.container-about__company {
+    width: 100%;
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    background: #F7F7F7;
+    gap: 10px;
+
+.container-about__company-header {
+    color: $royal_blue;
+    font-family: Nunito Sans;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 2.625rem */
+    text-transform: uppercase;
+    text-align: center;
+}
+.container-about__company-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: end;
+
+    .container-about__company-profile,
+    .container-about__company-ogrn,
+    .container-about__company-address {
+    width: 90%;
+    margin: 3% 5% 0 0;
+    overflow-wrap: break-word;
+    color: var(--colors-black-text, #222);
+    text-align: left;
+    font-family: Nunito Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 1.2rem */
+    }
+}
+.container-about___company-fotos{
+.container-about__foto {
+        width: 90%;
+        margin: 0 5% 0 5%;
+.container-about__about-foto {
+    width: 100%;
+        }
+    }
+} 
+}
+.button-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: min-content;
+    margin-bottom: 3%;
+    .btn_history,
+    .btn_info {
+        margin-top: 3%;
+    }
+    .btn_history{
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+    }
+    }
+}

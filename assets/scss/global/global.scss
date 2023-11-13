@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 16px;
+}
+
+li > a:hover {
+  color: $black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}

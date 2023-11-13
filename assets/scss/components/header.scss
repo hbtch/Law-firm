@@ -1,0 +1,231 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background-image: url(../images/men-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 100%;
+  }
+
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(95, 82, 82, 0.521);
+    margin-bottom: 15%;
+    box-sizing: border-box;
+    padding: 10px;
+    align-items: center;
+  }
+  .header__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    top: 5rem;
+  }
+  .header__logo-img{
+    max-width: 80px;
+    max-height: 80px;
+  }
+
+  .header__logo-title {
+    color: $white;
+    text-shadow:  5px 5px 5px rgba(0, 0, 0, 0.5);
+    font-family: "Asket Extended", Arial, sans-serif;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight:1000;
+    max-width: 75%;
+    margin: 0;
+  }
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: $white;
+  }
+  .item-g {
+    color: $white;
+  }
+
+  .item-g:hover{
+    color: black;
+  }
+  
+  .header__nav-items{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.1rem;
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+    min-width: 510px;
+  }
+  .header__button {
+    display: flex;
+    padding: 0.6rem 1.3rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .header__burger {
+    display: none;
+  }
+  
+  .header__title {
+    color: $white;
+    background-color: #2f3788e3;
+    opacity: 0.9;
+    border-radius: 8px;
+    width: 80%;
+    text-align: center;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.748);
+    font-size: 2.5em;
+    line-height: 120%;
+    transition: all 0.5s ease; 
+    padding: 10px;
+  }
+  
+  .header__burger-menu-item {
+    color: white;
+  }
+  
+  @media screen and (max-width: 970px) {
+    .header__nav {
+      display: none;
+    }
+  
+    .header__button {
+      display: none;
+    }
+  
+    .header__burger {
+      display: block;
+      position: fixed;
+      right: 0.9rem;
+      z-index: 1;
+      user-select: none;
+      margin: 10px;
+    }
+  
+    .header__burger ul {
+      padding: 0;
+    }
+  
+    .header__burger a:hover {
+      text-decoration: underline;
+    }
+  
+    .header__burger a::before {
+      content: ">";
+      padding-right: 0.44rem;
+    }
+  
+    .header__burger-checkbox {
+      display: block;
+      width: 2.2rem;
+      height: 2rem;
+      position: absolute;
+      top: -7px;
+      left: -5px;
+      cursor: pointer;
+      opacity: 0;
+      z-index: 2;
+      -webkit-touch-callout: none;
+    }
+  
+    .header__burger-checkbox:checked ~ span {
+      opacity: 1;
+      transform: rotate(45deg) translate(-2px, -1px);
+      background: #ffffff;
+    }
+  
+    .header__burger-checkbox:checked ~ span:nth-last-child(3) {
+      opacity: 0;
+      transform: rotate(0deg) scale(0.2, 0.2);
+    }
+  
+    .header__burger-line {
+      display: block;
+      width: 1.8rem;
+      height: 4px;
+      margin-bottom: 5px;
+      position: relative;
+      background: $royal_blue;
+      border-radius: 3px;
+      z-index: 1;
+      transform-origin: 4px 0px;
+      transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+        transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+    }
+  
+    .header__burger-line:first-child {
+      transform-origin: 0% 0%;
+    }
+  
+    .header__burger-line:nth-last-child(2) {
+      transform-origin: 0% 100%;
+    }
+  
+    .header__burger-checkbox:checked ~ span {
+      opacity: 1;
+      transform: rotate(45deg) translate(-2px, -1px);
+    }
+  
+    .header__burger-checkbox:checked ~ span:nth-last-child(3) {
+      opacity: 0;
+      transform: rotate(0deg) scale(0.2, 0.2);
+    }
+  
+    .header__burger-checkbox:checked ~ span:nth-last-child(2) {
+      transform: rotate(-45deg) translate(0, -1px);
+    }
+  
+    .header__burger-menu {
+      display: block;
+      position: fixed;
+      visibility: hidden;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+      padding: 4.45rem 0;
+      list-style: none;
+      background-color: #2f3788db;
+      transition-duration: 0.5s;
+    }
+  
+    .header__burger-menu > li {
+      margin: 1.7rem;
+    }
+    .header__burger-checkbox:checked ~ .header__burger-menu {
+      visibility: visible;
+      left: 0;
+    }
+  }
+  
+  @media screen and (max-width: 420px) {
+  .header__logo-title {
+  display: none;
+  }
+  
+  .header__title {
+    font-size: 1em;
+  }
+  
+  .header__up {
+    margin-bottom: 80%;
+  }
+  }
