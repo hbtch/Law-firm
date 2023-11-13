@@ -1,4 +1,3 @@
-<h1 align="center">73-real-2<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 <h3 align="center">Привет! Это наша первая командная работа над проектом с реальным заказчиком!</h3>
 
 # ЦЕНТР ЭКСПЕРТИЗ И ПРОСВЕЩЕНИЯ
